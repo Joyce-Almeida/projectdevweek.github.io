@@ -31,7 +31,7 @@ body {
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-contents{
+.left-section-content{
     padding: 2rem 2rem;
 }
 
@@ -42,6 +42,8 @@ body {
 
 .profile .profile-image {
     width: 100%;
+    border-radius: 50%;
+    border: 8px solid #1B2631;
 }
 
 .name {
@@ -74,11 +76,9 @@ body {
     display: flex;
     align-items: center;
     padding-top: 3rem;
-    margin: 15px;
 }
 
 .contact-info ul {
-    margin:15px;
     padding-top: 1.5rem;
 }
 
@@ -110,7 +110,6 @@ body {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    margin-left: 15px;
 }
 
 .referance-name {
@@ -133,7 +132,6 @@ body {
 
 .right-section-contents {
     padding: 2rem 2rem;
-    
 }
 
 .right-title {
@@ -146,7 +144,6 @@ body {
     align-items: center;
     padding: 2rem 0;
     position: relative;
-    margin:15px;
 }
 
 .gap {
@@ -166,7 +163,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
     color: #F1F8FD;
-    margin-left: 15px;
 }
 
 .exp-company-name,
