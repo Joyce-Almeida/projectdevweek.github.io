@@ -38,10 +38,14 @@ body {
 .profile {
     width: 100%;
     border-bottom: 2px solid #1B2631;
+    text-align: center;
+    margin-top: 5px;;
 }
 
 .profile .profile-image {
-    width: 100%;
+    width: 95%;
+    border-radius: 50%;
+   
 }
 
 .name {
@@ -74,13 +78,13 @@ body {
     display: flex;
     align-items: center;
     padding-top: 3rem;
-    margin: 15px;
 }
 
 .contact-info ul {
-    margin:15px;
     padding-top: 1.5rem;
+    
 }
+
 
 .contact-info ul li,
 .references ul li {
@@ -97,6 +101,7 @@ body {
     padding-right: 1rem;
     font-size: 18px;
     color: #2E86C1;
+   
 }
 
 .skills ul {
@@ -110,7 +115,6 @@ body {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    margin-left: 15px;
 }
 
 .referance-name {
@@ -133,7 +137,6 @@ body {
 
 .right-section-contents {
     padding: 2rem 2rem;
-    
 }
 
 .right-title {
@@ -146,7 +149,6 @@ body {
     align-items: center;
     padding: 2rem 0;
     position: relative;
-    margin:15px;
 }
 
 .gap {
@@ -166,7 +168,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
     color: #F1F8FD;
-    margin-left: 15px;
 }
 
 .exp-company-name,
@@ -264,12 +265,14 @@ body {
 
     .contact-info ul li i,
     .references ul li i {
-        /* padding-right: 1rem; */
+    
+        padding-right: 1rem; 
         font-size: 12px;
     }
 
     .skills ul li p {
-        font-size: 12px;
+        font-size: 1px;
+        
     }
 
     .about-me-contents {
